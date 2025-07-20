@@ -2,8 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AdminLTE Dashboard</title>
+    <title>WeBiz24-Ultimate ERP</title>
+    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.4.0/dist/css/tabler.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.35.0/tabler-icons.min.css">
+
+
     @vite(['resources/css/admin.scss', 'resources/js/admin.js'])
+    
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -52,9 +58,12 @@
 
     <!-- Footer -->
     <footer class="main-footer text-center">
-        <strong>Copyright &copy; {{ now()->year }} Laravel + AdminLTE</strong>
+        <strong>Copyright &copy; {{ now()->year }} WeBiz24 Ultimate ERP <i class="ti ti-building-warehouse"></i> | Version 1.0.1</strong>
     </footer>
 
 </div>
+    <!-- JS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.4.0/dist/js/tabler.min.js"></script>
+
 </body>
 </html>
